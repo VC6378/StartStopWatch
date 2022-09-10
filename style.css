@@ -1,0 +1,90 @@
+body{
+    background-color: orange;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+.wrapper{
+    width: 800px;
+    margin: 30px auto;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#seconds,#tens{
+    font-size: 30px;
+}
+
+#button-start{
+    background-color: orange;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    font-weight: 100;
+    border-radius: 8px;
+    padding: 34px 56px ;
+}
+
+#button-stop{
+    background-color: orange;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    font-weight: 100;
+    border-radius: 8px;
+    padding: 34px 56px ;
+}
+
+#button-reset{
+    background-color: orange;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    font-weight: 100;
+    border-radius: 8px;
+    padding: 34px 56px ;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#button-start:hover{
+    background-color: white;
+    border: 2px solid orange;
+    color: orange;
+}
+
+#button-stop:hover{
+    background-color: white;
+    border: 2px solid orange;
+    color: orange;
+}
+
+#button-reset:hover{
+    background-color: white;
+    border: 2px solid orange;
+    color: orange;
+}
